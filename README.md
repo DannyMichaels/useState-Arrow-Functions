@@ -1,7 +1,10 @@
 
 # Anonymous Arrow Functions in React useState
 
-##Example 1: displayUser
+useState is used to decide the initial value of a variable, usually, something like an array/object, an empty string or a boolean works, however, there are rare cases where you'd want to use an anonymous arrow function in order to set the initial value.
+
+
+## Example 1: displayUser
 
 
  in this example, we're not setting the currentUser with useReducer, so what happens when we edit the account? a refresh is needed in order to display the new info.
@@ -42,3 +45,4 @@ and in the JSX:
 ```        
 <h1>{displayUser?.name}<h1>
 ```
+etc...
